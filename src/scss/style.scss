@@ -1,0 +1,28 @@
+
+$text_color: #58402C;
+$text_size_header: 14px;
+$font_verdana: verdana;
+
+
+%flex {
+  display: flex;
+  align-items: center;
+}
+
+
+
+@import "header";
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center_cont {
+  width: 70%;
+  margin: auto;
+}

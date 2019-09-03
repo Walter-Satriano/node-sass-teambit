@@ -1,0 +1,52 @@
+.navbar_dx {
+  width: 100%;
+
+  ul {
+    @extend %flex;
+    justify-content: flex-end;
+    font-weight: bold;
+  }
+
+  li {
+    margin-left: 35px;
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text_color;
+
+    &:hover {
+      color: #30488F;
+    }
+  }
+
+  #nav_button {
+    margin-left: 35px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #30488F;
+    background-color: white;
+    font-size: $text_size_header;
+    font-family: $font_verdana;
+    color: #30488F;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #30488F;
+      color: white;
+      transition: 0.3s;
+    }
+  }
+}
+
+header nav {
+
+  @extend %flex;
+
+  height: 80px;
+  border-bottom: 1px solid $text_color;
+  font-size: $text_size_header;
+  font-family: $font_verdana;
+}
