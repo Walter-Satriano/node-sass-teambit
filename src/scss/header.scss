@@ -22,16 +22,7 @@
   }
 
   #nav_button {
-    margin-left: 35px;
-    padding: 7px 15px;
-    border-radius: 5px;
-    border-style: none;
-    border: 1px solid #30488F;
-    background-color: white;
-    font-size: $text_size_header;
-    font-family: $font_verdana;
-    color: #30488F;
-    font-weight: bold;
+    @extend %nav_style_button;
 
     &:hover {
       background-color: #30488F;
@@ -41,12 +32,13 @@
   }
 }
 
+
 header nav {
 
   @extend %flex;
 
   height: 80px;
   border-bottom: 1px solid $text_color;
-  font-size: $text_size_header;
+  font-size: $text_size_14;
   font-family: $font_verdana;
 }
