@@ -1,3 +1,4 @@
+.sec_understand_right,
 header nav,
 .navbar_dx ul {
   display: flex;
@@ -26,6 +27,10 @@ header nav,
   font-size: 14px;
   font-family: verdana;
   color: white;
+}
+
+header {
+  background-color: white;
 }
 
 .navbar_dx {
@@ -64,8 +69,10 @@ header nav {
   font-family: verdana;
 }
 
-section {
+.sec_understand {
   margin: 70px 0;
+  padding: 20px 0;
+  background-color: white;
 }
 
 .sec_understand_left {
