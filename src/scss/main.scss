@@ -1,0 +1,44 @@
+section {
+  margin: 70px 0;
+}
+
+.sec_understand_left {
+
+  font-family: $font_verdana;
+  color: $text_color;
+  line-height: 1.8;
+
+  h1 {
+    font-size: $text_size_36;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: $text_size_20;
+    font-weight: lighter;
+    margin: 25px 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text_color;
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: $text_size_14;
+
+    &:hover {
+      color: #30488F;
+    }
+  }
+
+  button {
+    @extend %section_style_button;
+
+    &:hover {
+      background-color: #001c77;
+      transition: 0.3s;
+    }
+  }
+}
