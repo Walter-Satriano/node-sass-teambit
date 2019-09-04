@@ -1,5 +1,8 @@
-section {
+// sezione "understand"
+.sec_understand {
   margin: 70px 0;
+  padding: 20px 0;
+  background-color: $bg_section_white
 }
 
 .sec_understand_left {
@@ -40,5 +43,64 @@ section {
       background-color: #001c77;
       transition: 0.3s;
     }
+  }
+}
+
+.sec_understand_right {
+  @extend %flex;
+}
+
+//sezione "traditional"
+.sec_traditional {
+  margin-bottom: 70px;
+  padding: 40px 0;
+  font-family: $font_verdana;
+  line-height: 1.8;
+  color: $text_color;
+  background-color: $bg_section_salmon;
+
+  .trad_title {
+    text-align: center;
+    margin: 60px 0;
+
+    h2 {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+
+  .hardcore, .no_feedback, .notsafe, .lightweight,
+  .feedback, .safe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      width: 70%;
+      font-size: $text_size_18;
+      text-align: center;
+    }
+
+    img {
+      width: auto;
+      height: 105px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .before, .after {
+    text-align: center;
+
+    img {
+      width: 280px;
+      height: auto;
+      margin-top: 80px;
+    }
+  }
+
+  hr {
+    width: 70%;
+    margin: 80px auto;
+    border: 1px solid $text_color;
   }
 }
