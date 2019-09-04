@@ -17,6 +17,17 @@ header nav,
   font-weight: bold;
 }
 
+.sec_understand_left button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid #30488F;
+  background-color: #30488F;
+  font-size: 14px;
+  font-family: verdana;
+  color: white;
+}
+
 .navbar_dx {
   width: 100%;
 }
@@ -51,6 +62,46 @@ header nav {
   border-bottom: 1px solid #58402C;
   font-size: 14px;
   font-family: verdana;
+}
+
+section {
+  margin: 70px 0;
+}
+
+.sec_understand_left {
+  font-family: verdana;
+  color: #58402C;
+  line-height: 1.8;
+}
+
+.sec_understand_left h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.sec_understand_left h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 25px 0;
+}
+
+.sec_understand_left a {
+  text-decoration: none;
+  color: #58402C;
+}
+
+.sec_understand_left p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.sec_understand_left p:hover {
+  color: #30488F;
+}
+
+.sec_understand_left button:hover {
+  background-color: #001c77;
+  transition: 0.3s;
 }
 
 .small_logo {
