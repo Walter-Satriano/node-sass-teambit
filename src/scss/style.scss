@@ -1,6 +1,10 @@
 
 $text_color: #58402C;
-$text_size_header: 14px;
+
+$text_size_12: 12px;
+$text_size_14: 14px;
+$text_size_16: 16px;
+
 $font_verdana: verdana;
 
 
@@ -9,9 +13,23 @@ $font_verdana: verdana;
   align-items: center;
 }
 
+%nav_style_button {
+  margin-left: 35px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid #30488F;
+  background-color: white;
+  font-size: $text_size_14;
+  font-family: $font_verdana;
+  color: #30488F;
+  font-weight: bold;
+}
+
 
 
 @import "header";
+@import "footer";
 
 
 
@@ -25,4 +43,5 @@ $font_verdana: verdana;
 .center_cont {
   width: 70%;
   margin: auto;
+  display: flex;
 }
