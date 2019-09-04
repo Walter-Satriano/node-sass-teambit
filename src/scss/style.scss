@@ -4,6 +4,7 @@ $text_color: #58402C;
 $text_size_12: 12px;
 $text_size_14: 14px;
 $text_size_16: 16px;
+$text_size_18: 18px;
 $text_size_20: 20px;
 $text_size_30: 30px;
 $text_size_36: 36px;
@@ -65,4 +66,11 @@ $bg_section_salmon: #FFE7D2;
   width: 70%;
   margin: auto;
   display: flex;
+}
+
+.center_cont_2 {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
